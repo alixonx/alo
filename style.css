@@ -1,0 +1,379 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://www.bmw.ru/content/dam/bmw/common/all-models/x-series/x7/2022/highlights/bmw-x-series-x7-sp-desktop.jpg);
+}
+
+
+.navbar{
+    width: 80%;
+    height: 80px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+}
+
+
+
+.item{
+    list-style: none;
+    padding: 0px 30px;
+    color: #fff;
+}
+
+
+
+.icon{
+    width: 100px;
+    height: 80px;
+    background-color: transparent;
+    margin-left: 400px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.icon > i{
+    margin: 15px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.chiziq{
+    width: 80%;
+    height: 2px;
+    background-color: #fff;
+    margin-left: 80px;
+}
+
+
+.po{
+    padding-top: 10px;
+    font-size: 18px;
+    color: #fff;
+    padding-left: 950px;
+}
+.top{
+    width: 500px;
+    height: 300px;
+    margin-left: 80px;
+}
+
+
+.the{
+    font-weight: 400;
+    font-size: 45px;
+    padding-top: 50px;
+}
+
+.button{
+    margin-top: 20px;
+    width: 300px;
+    height: 50px;
+    background-color: dodgerblue;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.collection{
+    width: 100%;
+    height: 400px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.main_item{
+    width: 50%;
+    height: 400px;
+    background-image: url(https://images.drive.ru/i/0/5d1c38b1ec05c4c50a000025.jpg);
+    margin-right: 5px;
+}
+
+.main_item > h1{
+    padding-top: 50px;
+    padding-left: 50px;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.main_item > button{
+    width: 250px;
+    height: 50px;
+    font-size: 18px;
+    margin-left: 50px;
+    margin-top: 10px;
+    border: 3px solid #fff;
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+    font-weight: 800;
+}
+
+.thex5{
+    width: 50%;
+    height: 400px;
+    background-image: url(https://cdn.kodixauto.ru/media/image/5da974fef113ca0001a724bc);
+    margin-left: 5px;
+}
+
+.thex5 > h1{
+    padding-top: 50px;
+    padding-left: 50px;
+    font-size: 35px;
+    font-weight: 400;
+    color: #fff;
+
+}
+
+.thex5 > button{
+    width: 250px;
+    height: 50px;
+    font-size: 18px;
+    margin-left: 50px;
+    margin-top: 10px;
+    border: 3px solid #fff;
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+    font-weight: 800;
+
+}
+
+.bmw{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    margin-top: 10px;
+}
+
+.bmw1{
+    width: 40%;
+    height: 150px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+}
+
+.bmw1 > h1{
+    font-size: 30px;
+    font-weight: 400;
+    
+}
+
+.bmw2{
+    width: 20%;
+    height: 150px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 5px;
+}
+
+.bmw2 > i{
+    color: black;
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+.bmw2 > button{
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    background-color: dodgerblue;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.bmw3{
+    width: 20%;
+    height: 150px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 5px;
+}
+
+.bmw3 > i{
+    color: black;
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+.bmw3 > button{
+    width: 170px;
+    height: 50px;
+    margin-top: 20px;
+    border: 2px solid black;
+    outline: none;
+    background-color: transparent;
+    font-size: 18px;
+    color: black;
+    font-weight: 700;
+}
+
+.bmw4{
+    width: 20%;
+    height: 150px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 5px;
+}
+
+.bmw4 > i{
+    color: black;
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+.bmw4 > button{
+    width: 170px;
+    height: 50px;
+    margin-top: 20px;
+    border: 2px solid black;
+    outline: none;
+    background-color: transparent;
+    font-size: 18px;
+    color: black;
+    font-weight: 700;
+}
+
+.img_bmw{
+    width: 100%;
+    height: 270px;
+    display: flex;
+    margin-top: 10px;
+}
+
+.top_bmw{
+    width: 25%;
+    height: 270px;
+    margin-left: 10px;
+}
+
+.img_main{
+    width: 100%;
+    height: 150px;
+}
+
+.top_bmw > h1{
+    font-size: 25px;    
+    font-weight: 400;
+    padding-top: 15px;
+}
+
+.top_bmw > p{
+    font-size: 15px;
+    padding-top: 10px;
+
+}
+
+.top_bmw > h2{
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+
+.top_bmw2{
+    width: 25%;
+    height: 270px;
+    margin-left: 10px;
+}
+
+.img_main2{
+    width: 100%;
+    height: 150px;
+}
+
+.top_bmw2 > h1{
+    font-size: 25px;    
+    font-weight: 400;
+    padding-top: 15px;
+}
+
+.top_bmw2 > p{
+    font-size: 15px;
+    padding-top: 10px;
+
+}
+
+.top_bmw2 > h2{
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.top_bmw3{
+    width: 25%;
+    height: 270px;
+    margin-left: 10px;
+}
+
+.img_main3{
+    width: 100%;
+    height: 150px;
+}
+
+.top_bmw3 > h1{
+    font-size: 25px;    
+    font-weight: 400;
+    padding-top: 15px;
+}
+
+.top_bmw3 > p{
+    font-size: 15px;
+    padding-top: 10px;
+
+}
+
+.top_bmw3 > h2{
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.top_bmw4{
+    width: 25%;
+    height: 270px;
+    margin-left: 10px;
+}
+
+.img_main4{
+    width: 100%;
+    height: 150px;
+}
+
+.top_bmw4 > h1{
+    font-size: 25px;    
+    font-weight: 400;
+    padding-top: 15px;
+}
+
+.top_bmw4 > p{
+    font-size: 15px;
+    padding-top: 10px;
+
+}
+
+.top_bmw4 > h2{
+    font-size: 20px;
+    padding-top: 10px;
+}
